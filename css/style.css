@@ -196,6 +196,13 @@ nav {
     width: 992px;
   }
   /* navbar */
+
+  /* Card */
+  .cards-flex {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  /* /Card */
 }
 
 @media only screen and (max-width: 992px) {
@@ -205,6 +212,11 @@ nav {
   .nav-menu {
     padding-left: 153px;
   }
+  /* Card */
+  .cards-flex {
+    grid-template-columns: auto auto;
+  }
+  /* /Card */
 }
 
 @media only screen and (max-width: 768px) {
@@ -232,6 +244,9 @@ nav {
   }
   .nav-btn {
     margin-left: 10px;
+  }
+  .cards-flex {
+    grid-template-columns: auto;
   }
 }
 @media only screen and (max-width: 420px) {

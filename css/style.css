@@ -228,7 +228,7 @@ nav {
   .nav-menu {
     gap: 20px;
   }
-  .texts-img {
+  /* .texts-img {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -244,6 +244,12 @@ nav {
   }
   .text-img__btn {
     width: 219px;
+  } */
+}
+
+@media only screen and (max-width: 650px) {
+  .texts-img {
+    margin-left: 30px;
   }
 }
 
@@ -261,6 +267,9 @@ nav {
   .nav-btn {
     margin-left: 10px;
   }
+  .texts-img {
+    margin-left: 40px;
+  }
 }
 @media only screen and (max-width: 420px) {
   .nav-menu {
@@ -268,12 +277,11 @@ nav {
     margin-left: 15px;
     margin-top: 20px;
   }
-  .text-img__h1 {
+  /* .text-img__h1 {
     width: 355px;
   }
   .text-img__p {
     width: 330px;
     font-size: 18px;
-  }
- 
+  } */
 }
